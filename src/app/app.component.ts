@@ -24,4 +24,8 @@ export class AppComponent {
   subtract() {
     this.result = this.num1 - this.num2;
   }
+
+  multiply() {
+    this.result = this.num1 * this.num2;
+  }
 }
